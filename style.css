@@ -42,3 +42,39 @@
 .fa-user-tie, .fa-cart-plus, .section-title{
     color: var(--primary);
 }
+
+
+
+
+/*navbar style from here*/
+.navbar {
+    background-color: var(--dark);
+ 
+}
+
+#logo{
+    font-size: 40px;
+    color: var(--dark);
+}
+
+.nav-item .active {
+    color: var(--primary);
+}
+
+.nav-item,
+.dropdown-toggle {
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--dark);
+}
+
+.nav-item .active{
+    color: var(--primary);
+}
+
+.nav-item:hover,
+.dropdown-toggle:hover {
+    color: var(--primary);
+}
+/*navbar style stop here*/
