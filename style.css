@@ -12,3 +12,33 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
 
 
+
+
+
+
+
+/*create css varible for re-use this*/
+:root {
+    --primary: #FEA116;
+    --light: #F1F8FF;
+    --dark: #0F172B;
+} 
+
+
+
+/*here set the font style */
+.ff-secondary {
+    font-family: 'Pacifico', cursive;
+}
+
+.fw-medium {
+    font-weight: 600 !important;
+}
+
+.fw-semi-bold {
+    font-weight: 700 !important;
+}
+
+.fa-user-tie, .fa-cart-plus, .section-title{
+    color: var(--primary);
+}
