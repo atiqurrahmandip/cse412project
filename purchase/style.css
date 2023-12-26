@@ -1,0 +1,21 @@
+.navbar {
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+.navbar-text {
+    margin-right: auto;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+li > a {
+    font-size: 12px;   
+}
+
+.navbar-text span {
+    margin-right: 15px;
+}
