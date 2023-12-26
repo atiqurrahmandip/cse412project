@@ -93,4 +93,59 @@
                 </div>
             </div>
         </nav>
+<div class="container-fluid mt-2">
+            <div class="row reg-login-page">
+                <div class="col-lg-6">
+                    <div class="container p-5">
+
+                    </div>
+                </div>
+                
+                <!--login part start from here-->
+                <div class="col-lg-6"    id="loginform"  >
+                    <div class="container p-5">
+                        <div id="customer-signup-id" class="user-signup">
+                            <div class="container-fluid signupForm p-3">
+                                <form  method="post" action="">
+                                    <h3 class="text-center">Sign in</h3>
+                                    <div class="row">
+                                        <div class="col-lg-12 mb-3">
+                                        <input type="text" class="form-control" name="username" id="username" placeholder="username..." required>
+                                        </div>
+                                    </div>
+                                                                        
+                                    <div class="row">
+                                        <div class="col-lg-12 mb-3">
+                                        <input type="password" class="form-control" name="password" id="password" placeholder="Password..." required>
+                                        </div>
+                                    </div>
+
+                                    
+                                    <div class="row">
+                                        <div class="col-lg-12">
+
+                                        <input type="submit" name="loginSubmit" value="Sign up" class="btn btn-warning" style="width:100%">
+
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-lg-6">
+                                            <label>Haven't you already an account? <a style="cursor:pointer; color:blue"   href="signup.php">Sign up</a></label>
+                                        </div>
+                                        <div class="col-lg-6 mb-3">
+                                            <div class="form-check">
+
+                                                    <a style="cursor:pointer; color:blue; margin-left:20%; ">Forget Password?</a>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         
