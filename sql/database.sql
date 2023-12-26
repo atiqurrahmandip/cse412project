@@ -1,0 +1,1 @@
+CREATE DATABASE stationary_shop;
