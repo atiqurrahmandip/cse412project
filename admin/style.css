@@ -118,10 +118,6 @@
     border-radius: 0 30px 30px 0;
 }
 
-
-
-
-
 .content .navbar .navbar-nav .nav-link {
     margin-left: 25px;
     padding: 12px 0;
@@ -164,3 +160,97 @@
         margin-left: 15px;
     }
 }
+/*navbar and top bar design stop here*/
+/*************************************
+**************************************/
+
+
+
+
+
+
+/* product add form design start from here*/
+#add-product-form{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#add-product-form  > h1{
+    font-weight: bolder;
+}
+
+#productAdd{
+    margin: auto;
+    padding: 12px 8px;
+}
+
+#addForm{
+
+    margin-top: 0;
+    margin-right: 12px;
+    margin-left: 12px;
+    padding: 6px;
+    height: auto;
+    
+}
+
+.addForm{
+    min-width: 600px;
+}
+
+.addForm  > input[type=text], input[type=number], textarea{
+    outline: none;
+    margin-top: 18px;
+    padding: 12px;
+    display: block;
+    border: none;
+    width: 100%;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.addForm  > textarea{
+    resize: none;
+    min-height: 120px;
+}
+
+label{
+    margin-top: 18px;
+    color: #263849;
+}
+
+.addForm  > input[type=file]{
+    color: #263849;
+
+}
+
+.addForm  >input[type=submit]{
+    margin-top: 18px;
+    padding: 12px 18px;
+    background-color: #152744;
+    outline: none;
+    color: #ffa323;
+}
+
+.errorProduct{
+    color: red;
+    margin-left: 15px;
+    display: none;
+}
+
+#box{
+    margin-top: 18px;
+    font-size: 17px;
+}
+
+#box  > span{
+    margin-left: 10px;
+}
+
+
+
+/*card design here*/
+/******************/
+
+#dashboard{
+    height: 300px;
+}
+
