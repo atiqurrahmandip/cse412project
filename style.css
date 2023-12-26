@@ -13,10 +13,6 @@
 
 
 
-
-
-
-
 /*create css varible for re-use this*/
 :root {
     --primary: #FEA116;
@@ -78,8 +74,6 @@
     color: var(--primary);
 }
 /*navbar style stop here*/
-
-
 
 
 
@@ -173,6 +167,7 @@
 
 
 
+
 /*footer part style start from here*/
 footer{
     background-color: var(--dark);
@@ -195,3 +190,53 @@ footer{
     color: var(--primary);
 }
 /*footer desgin stop here*/
+
+
+
+
+/*sign up, login form design from here*/
+
+.left-side-signin{
+    background-color: var(--primary);
+    width: 100%;
+    height: auto;
+}
+.signupForm,  .loginForm {
+
+    width: auto;
+    height: auto;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+.form-control{
+    padding: 12px;
+}
+
+#regSubmit,  #loginSubmit{
+    width: 100%;
+    color: var(--light);
+    font-weight: bold;
+}
+
+
+
+.reg-login-page{
+    background-image: url(img/image2.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
