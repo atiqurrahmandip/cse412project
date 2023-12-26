@@ -78,3 +78,67 @@
     color: var(--primary);
 }
 /*navbar style stop here*/
+
+
+
+
+
+/*banner style from here*/
+#banner{
+    margin-bottom: 90px; 
+    background-image: url('img/banner.jpg'); 
+    background-size: cover; 
+    background-position: center;
+}
+
+#banner-title{
+    font-weight: bold;
+}
+
+#banner-info{
+    font-weight: 500;
+}
+
+#explore-btn{
+    background-color: var(--dark);
+    color: var(--primary);
+    text-transform: uppercase;
+}
+/*banner style stop here*/
+
+
+
+
+
+
+/*service part style start from here*/
+
+
+
+.service-tiitle{
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--dark);
+}
+.service-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+
+.service-item:hover {
+    background: var(--primary);
+
+}
+
+.service-item:hover .product path {
+    fill: var(--light); 
+}
+
+.service-item *{
+    transition: .5s;
+}
+
+.service-item:hover *{
+    color: var(--light) !important;
+}
+/*service part style stop here*/
